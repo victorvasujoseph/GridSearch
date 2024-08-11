@@ -28,6 +28,9 @@ After running the script, you will see two visualizations:
 
 These results help you understand the trade-offs between exhaustive searches and faster, less thorough methods.
 
+<img src="images/1.png" alt="My Image" width="700"/>
+
 ## Conclusion
 
 The results demonstrate that while GridSearchCV generally finds the most accurate model, it is the most time-consuming. On the other hand, HalvingRandomSearchCV is the fastest but may not always achieve the best score. The choice of method should depend on the available computational resources and the need for accuracy versus speed.
+
